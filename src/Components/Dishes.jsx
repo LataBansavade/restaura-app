@@ -66,7 +66,7 @@ const Dishes = () => {
       </div>
 
       {/* Filter Buttons */}
-      <div className='mb-6 flex justify-center space-x-4'>
+      <div className='mb-6 flex justify-center space-x-2'>
         {['All', 'Veg', 'Non-Veg', 'Seafood', 'Indian', 'Dessert'].map((category) => (
           <button
             key={category}
